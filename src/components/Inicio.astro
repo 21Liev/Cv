@@ -1,0 +1,557 @@
+---
+import "../styles/global.css";
+---
+<main class="max-w-6xl mx-auto" id="ini">
+    <header class="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-[#fce573] bg-[#faf8f24b] py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg mb-15">
+        <div class="px-4">
+            <div class="flex items-center justify-between">
+                <div class="flex shrink-0">
+                    <a aria-current="page" class="flex items-center" href="#">
+                        <img class="h-10 w-auto bg-[#ffcf23] hover:bg-[#ffffff] rounded-full shadow-2xs shadow-black hover:shadow-2xl hover:shadow-black hover:scale-110 transition-all duration-500 ease-in-out" src="../../public/avatar.png" alt="Avatar">                        
+                    </a>
+                </div>
+                <div class="hidden md:flex md:items-center md:justify-center md:gap-5 text-[#FFF3CC]">
+                    <a aria-current="page"
+                        class="inline-block rounded-lg px-2 py-1 text-sm font-medium hover:text-black hover:bg-[#ffcf23] hover:scale-110 transition-all duration-500 ease-in-out hover:shadow-2xs hover:shadow-black"
+                        href="#pro">Proyectos</a>
+                    <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium hover:text-black hover:bg-[#ffcf23] hover:scale-110 transition-all duration-500 ease-in-out hover:shadow-2xs hover:shadow-black"
+                        href="#tec">Tecnologías y conocimientos</a>
+                    <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium hover:text-black hover:bg-[#ffcf23] hover:scale-110 transition-all duration-500 ease-in-out hover:shadow-2xs hover:shadow-black"
+                        href="#rds">Redes sociales y feedback</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Encabezado -->
+    <section>
+        <div>
+            <!-- Presentación -->
+            <h1 class="text-center font-extrabold text-5xl text-[#FFF3CC] mt-35">Lievano Morón 🐱‍💻</h1>        
+            <h2 class="text-center font- text-2xl text-[#e9c511] mt-10">ANALISTA DE SISTEMAS</h2>
+            <p class="text-center font-medium text-xl text-wrap text-[#FFF3CC] mt-3">Joven de 22 años, actualmente cursando la carrera de analista de sistemas.</p>
+            <!-- grupo de botones con redes sociales -->
+            <h2 class="text-center font-bold text-xl text-[#e9c511] mt-15">Cv y contacto</h2>
+            <div class="mt-5 mb-25 flex flex-wrap justify-center gap-4">
+                <!-- CV -->
+                <a href="/cv.pdf" download class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                        <img src="https://img.icons8.com/?size=100&id=2957&format=png&color=000000" alt="cv" class="w-8 h-8">
+                    </span>
+                    <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">
+                        Descargar CV
+                    </span>
+                    <span class="relative text-base font-semibold invisible">Texto largo xl</span>
+                </a>
+            
+                <!-- Gmail -->
+                <a href="mailto:lievanomoron1201@gmail.com" class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                        <img src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=000000" alt="gmail" class="w-8 h-8">
+                    </span>
+                    <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">
+                        Gmail
+                    </span>
+                    <span class="relative text-base font-semibold invisible">Texto largo xl</span>
+                </a>
+            
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/lievano-morón-577322220" target="_blank" class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                        <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="linkedin" class="w-8 h-8">
+                    </span>
+                    <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">
+                        LinkedIn
+                    </span>
+                    <span class="relative text-base font-semibold invisible">Texto largo xl</span>
+                </a>
+            
+                <!-- GitHub -->
+                <a href="https://github.com/21Liev" target="_blank" class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                        <img src="https://img.icons8.com/?size=100&id=106567&format=png&color=000000" alt="github" class="w-8 h-8">
+                    </span>
+                    <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">
+                        GitHub
+                    </span>
+                    <span class="relative text-base font-semibold invisible">Texto largo xl</span>
+                </a>
+            
+                <!-- WhatsApp -->
+                <a href="https://wa.me/584126290375" target="_blank" class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                        <img src="https://img.icons8.com/?size=100&id=62855&format=png&color=000000" alt="whatsapp" class="w-8 h-8">
+                    </span>
+                    <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">
+                        WhatsApp
+                    </span>
+                    <span class="relative text-base font-semibold invisible">Texto largo xl</span>
+                </a>
+            </div>
+            <span id="pro"></span>
+    </section>    
+    <hr class="border-t-2 border-[#e9c511] mx-auto my-4 w-full">
+    <!-- Sección para proyectos -->
+    <section> 
+        <div class="flex gap-1 max-w-5xl justify-center mx-auto mb-10">
+        <h1 class="text-center semibold text-3xl text-[#e9c511] mt-15">PROYECTOS</h1>
+        <img src="https://img.icons8.com/?size=100&id=53428&format=png&color=e9c511" alt="proyecto" class="w-10 h-10 mb-1  mt-15 ml-5">  
+        </div>
+        <p class="text-center font-medium text-xl text-wrap text-[#FFF3CC] mt-3">Aquí encontrarás algunos de los proyectos que he realizado.</p>      
+        <img src="https://img.icons8.com/?size=100&id=102673&format=png&color=e9c511" alt="Flecha" class="w-10 h-10 mb-1 justify-center mx-auto mt-10 animate-bounce">  
+        <!-- cartas con proyectos acá -->
+        <div class="mt-5 mb-0 flex flex-col justify-center gap-4 max-w-5xl mx-auto">
+                <div>
+                    <ul class="grid grid-cols-1 xl:grid-cols-1 gap-y-10 gap-x-6 items-start p-8 mx-auto ">
+                        <!-- Cell4u -->
+                        <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
+                            <div class="order-1 sm:ml-6 xl:ml-0">
+                                <h3 class="mb-3 text-[#e9c511] mt-10 font-bold text-6xl">CELL4U</h3>
+                                <div>
+                                    <p class="text-[#FFF3CC] font-medium text-lg text-wrap">Esta es una web desarrollada en Astro que <span class="text-[#fcce38]">permite
+                                         a los usuarios comparar</span> especificaciones
+                                         de distintos modelos de celulares. <span class="text-[#fcce38]">Utiliza un sistema de sugerencias basado en JSON</span> para facilitar la selección de dispositivos, 
+                                         mostrando sus características en tarjetas de comparación.</p>
+                                    <h4 class="mb-3 mt-5 text-[#e9c511] font-medium text-2xl">Funcionalidades principales:</h4>
+                                    <div>
+                                        <ul class="mt-8 space-y-3 font-medium">
+                                            <li class="flex items-start lg:col-span-1">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Búsqueda inteligente:</span> Los usuarios pueden buscar modelos y ver sugerencias en tiempo real.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Comparación detallada:</span> Al seleccionar un celular, se despliega su información técnica en una tarjeta.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Interfaz amigable y rápida:</span> Gracias a Astro y Tailwind CSS, la web es ligera y moderna.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Base de datos integrada:</span> Los datos de los celulares provienen de un dataset estructurado.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h5 class="mb-3 mt-7 text-[#e9c511] font-medium text-2xl">Tecnologías utilizadas:</h5>
+                                </div>
+                                <div class="mt-5 flex flex-wrap justify-center gap-4 cursor-default">
+                                    <nav class="mt-5 mb-25 flex flex-wrap justify-center gap-4">
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=lckHFUP7nJhG&format=png&color=000000" alt="Astro" class="w-6 h-6 inline mb-1 mr-1">Astro</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=UpSCHTwpywad&format=png&color=e9c511" alt="Tailwind" class="w-5 h-5 inline mb-1 mr-1">Tailwind</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=114474&format=png&color=000000" alt="JSON" class="w-5 h-5 inline mb-1 mr-1">JSON</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=8305&format=png&color=e9c511" alt="Database" class="w-5 h-5 inline mb-1 mr-1">DataBase</p>
+                                    </nav>
+                                </div>
+                            </div>                            
+                            <a href="https://cellu4.netlify.app" target="_blank">   
+                                <img src="../../public/b-index.jpg" alt="imagen-index" class="mb-6 shadow-lg shadow-[#e9c51134] w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full rounded-2xl mt-0 hover:-translate-y-3 hover:shadow-xl hover:shadow-[#e9c5118c] transition-all duration-500 ease-in-out hover:opacity-100 opacity-60 cursor-pointer" width="1216" height="640">
+                            </a>                                          
+                        </li>
+                        <hr class="border-t-1 border-[#e9c511] mx-auto w-120 mt-0 mb-5">
+                        <!-- Graficador -->
+                        <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
+                            <div class="order-1 sm:ml-6 xl:ml-0">
+                                <h3 class="mb-3 text-[#e9c511] mt-10 font-bold text-6xl">GRÁFICA</h3>
+                                <div>
+                                    <p class="text-[#FFF3CC] font-medium text-lg text-wrap">Esta página <span class="text-[#fcce38]">permite a los usuarios visualizar
+                                         y graficar ecuaciones matemáticas de manera interactiva.</span> Los usuarios pueden ingresar diferentes tipos de ecuaciones, 
+                                         como funciones trigonométricas, exponenciales, y más, y ver cómo <span class="text-[#fcce38]">se representan gráficamente en tiempo real.</span></p>
+                                    <h4 class="mb-3 mt-5 text-[#e9c511] font-medium text-2xl">Funcionalidades principales:</h4>
+                                    <div>
+                                        <ul class="mt-8 space-y-3 font-medium">
+                                            <li class="flex items-start lg:col-span-1">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Soporte para diferentes tipos de ecuaciones:</span> Permite graficar ecuaciones trigonométricas, exponenciales, lineales y otras funciones matemáticas.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Variedad de tipos de gráficos:</span> Opción de elegir entre diferentes tipos de gráficos, como líneas, barras y puntos.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Calculadora integrada:</span> La página incluye una calculadora que se integra con el graficador para facilitar los cálculos.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Graficar múltiples funciones:</span> Permite graficar varias funciones al mismo tiempo, comparando visualmente las curvas.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h5 class="mb-3 mt-7 text-[#e9c511] font-medium text-2xl">Tecnologías utilizadas:</h5>
+                                </div>
+                                <div class="mt-5 mb-10 flex flex-wrap justify-center gap-4 cursor-default">
+                                    <nav class="mt-5 mb-25 flex flex-wrap justify-center gap-4">
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=lckHFUP7nJhG&format=png&color=000000" alt="Astro" class="w-6 h-6 inline mb-1 mr-1">Astro</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=UpSCHTwpywad&format=png&color=e9c511" alt="Tailwind" class="w-5 h-5 inline mb-1 mr-1">Tailwind</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=39854&format=png&color=e9c511" alt="JavaScript" class="w-5 h-5 inline mb-1 mr-1">JavaScript</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=41414&format=png&color=e9c511" alt="Libreria" class="w-5 h-5 inline mb-1 mr-1">Chart.js</p>
+                                    </nav>
+                                </div>
+                            </div>
+                            <a href="https://graficaar.netlify.app/" target="_blank">      
+                            <img src="../../public/g-graficador.jpg" alt="imagen-index" class="mb-6 shadow-lg shadow-[#e9c51134] w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full rounded-2xl hover:-translate-y-3 hover:shadow-xl hover:shadow-[#e9c5118c] transition-all duration-500 ease-in-out hover:opacity-100 opacity-60 cursor-pointer" width="1216" height="640">
+                            </a>
+                        </li>
+                        <hr class="border-t-1 border-[#e9c511] mx-auto w-120 mt-0 mb-5">
+                        <!-- Mapa -->
+                        <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
+                            <div class="order-1 sm:ml-6 xl:ml-0">
+                                <h3 class="mb-3 text-[#e9c511] mt-10 font-bold text-6xl">HISTORICARG</h3>
+                                <div>
+                                    <p class="text-[#FFF3CC] font-medium text-lg text-wrap">Esta página de mapa interactivo <span class="text-[#fcce38]">muestra una representación 
+                                         geográfica con marcadores que
+                                         resaltan eventos históricos e importantes </span> en la historia de Argentina. Estos eventos incluyen batallas históricas,
+                                          descubrimientos científicos, hazañas deportivas, y premios Nobel. 
+                                          <span class="text-[#fcce38]">Los usuarios pueden interactuar con los marcadores,</span> obtener más detalles sobre cada evento, y explorar cómo estos eventos se d
+                                          istribuyen en el mapa.</p>
+                                    <h4 class="mb-3 mt-5 text-[#e9c511] font-medium text-2xl">Funcionalidades principales:</h4>
+                                    <div>
+                                        <ul class="mt-8 space-y-3 font-medium">
+                                            <li class="flex items-start lg:col-span-1">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Marcadores interactivos:</span> Cada marcador en el mapa representa un evento importante, como batallas, descubrimientos o premios Nobel.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Descripción adicional:</span> Al hacer clic en un marcador, el usuario puede obtener más información sobre el evento o descubrimiento representado.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Interactividad con el mapa:</span> Los usuarios pueden hacer zoom, mover el mapa y explorar diferentes áreas de Argentina para ver los eventos.
+                                                </p>
+                                            </li>
+                                            <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
+                                                <div class="flex-shrink-0">
+                                                    <svg class="w-5 h-5 text-[#e9c511]" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd"
+                                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </div>
+                                                <p class="ml-3 leading-5 text-[#FFF3CC]">
+                                                    <span class="text-[#fcce38] text-lg">Animaciones:</span> Los marcadores tienen animaciones al pasar el cursor sobre ellos, lo que hace que la experiencia sea más dinámica.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h5 class="mb-3 mt-7 text-[#e9c511] font-medium text-2xl">Tecnologías utilizadas:</h5>
+                                </div>
+                                <div class="mt-5 mb-10 flex flex-wrap justify-center gap-4">
+                                    <nav class="mt-5 mb-25 flex flex-wrap justify-center gap-4 cursor-default">
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=lckHFUP7nJhG&format=png&color=000000" alt="Astro" class="w-6 h-6 inline mb-1 mr-1">Astro</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=UpSCHTwpywad&format=png&color=e9c511" alt="Tailwind" class="w-5 h-5 inline mb-1 mr-1">Tailwind</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=59833&format=png&color=e9c511" alt="Leatfletjs" class="w-5 h-5 inline mb-1 mr-1">Leaflet.js</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=39854&format=png&color=e9c511" alt="JavaScript" class="w-5 h-5 inline mb-1 mr-1">JavaScript</p>
+                                        <p class="text-[#e9c511] font-medium text-center py-3 pl-8 pr-8 rounded-full mx-2 hover:scale-110 hover:shadow-2xs hover:shadow-amber-300 transition-all duration-300 ease-in-out"><img src="https://img.icons8.com/?size=100&id=114474&format=png&color=000000" alt="JSON" class="w-5 h-5 inline mb-1 mr-1">JSON</p>
+                                    </nav>
+                                </div>
+                            </div>
+                            <a href="https://historicarg.netlify.app/" target="_blank">     
+                                <img src="../../public/m-mapa.jpg" alt="index-foto" class="mb-6 shadow-lg shadow-[#e9c51134] w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full rounded-2xl hover:-translate-y-3 hover:shadow-xl hover:shadow-[#e9c5118c] transition-all duration-500 ease-in-out hover:opacity-100 opacity-60 cursor-pointer" width="1216" height="640">
+                            </a>
+                        </li>                        
+                        <span id="tec"></span>
+                    </ul> 
+                </div>                
+        </div>
+        <hr class="border-t-2 border-[#e9c511] mx-auto my-4 w-full">
+    </section>
+    <!-- Sección para tecnoligas que manejo y conocimientos -->
+    <section>
+        <div>
+            <!-- Tecnologías -->
+            <section>
+                <div class="flex gap-1 max-w-5xl justify-center mx-auto mb-10">
+                    <h1 class="text-center semibold text-3xl text-[#e9c511] mt-15">TECNOLOGÍAS Y CONOCIMIENTOS</h1>
+                    <img src="https://img.icons8.com/?size=100&id=8kpqNWqschXX&format=png&color=e9c511" alt="proyecto" class="w-10 h-10 mb-1  mt-15 ml-5">  
+                </div>
+            <img src="https://img.icons8.com/?size=100&id=102673&format=png&color=e9c511" alt="Flecha" class="w-10 h-10 mb-1 justify-center mx-auto mt-10 animate-bounce">  
+            <h2 class="text-center font-medium text-xl text-wrap text-[#FFF3CC] mt-7">TECNOLOGÍAS</h2>      
+            <!-- Div con lo iconos de tec -->
+                <div class="flex flex-wrap justify-center gap-4 mt-5 mb-25">                
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Java
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">JavaScript
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="MySQL" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">MySQL
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000" alt="Tailwind" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Tailwind CSS
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=lckHFUP7nJhG&format=png&color=000000" alt="Astro" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Astro
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">HTML
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">CSS
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Python
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="Nodejs" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Node.js
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=lRjcvhvtR81o&format=png&color=000000" alt="Laravel" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Laravel
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="Figma" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Figma
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=13677&format=png&color=000000" alt="Photoshop" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Adobe Photoshop
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=bVGqATNwfhYq&format=png&color=000000" alt="GitHub" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">GitHub
+                    </p>
+                    <p class="text-[#FFF3CC] text-center px-5 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/6">
+                        <img src="https://img.icons8.com/?size=100&id=f0R4xVI4Sc8O&format=png&color=000000" alt="Php" class="bg-gradient-to-br from-[#00000000] to-[#251d0181] hover:bg-gradient-to-br hover:from-[#e9c511] hover:to-[#f0d44c] hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#e9c51142] transition-all duration-500 ease-in-out w-20 h-20 mx-auto mt-10 mb-3 shadow-[#e9c511] shadow-xs rounded-2xl p-3">Php
+                    </p>
+                </div>
+            </section>
+            <!-- Conocimientos -->
+            <section>
+            <p class="text-center font-medium text-xl text-wrap text-[#FFF3CC] mt-7">CONOCIMIENTOS</p>
+            <!-- Div con cartas donde cuento los conocimientos fuera de la informaticá -->             
+            <div class="flex flex-wrap justify-center gap-4 mt-25 mb-25">
+                <!-- Habilidades blandas --> 
+                <div class="cursor-default group relative overflow-hidden bg-[#000000] px-6 pt-10 pb-8 shadow-xs shadow-[#fddd39] ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 mb-10">
+                    <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#e9c511] transition-all duration-300 group-hover:scale-[10]"></span>
+                        <div class="relative z-10 mx-auto max-w-md">
+                            <span class="grid h-20 w-20 place-items-center rounded-full bg-[#e9c511] transition-all duration-300 group-hover:bg-[#fff7cc9a] group-hover:shadow-xs group-hover:shadow-[#000000]">
+                                <img src="https://img.icons8.com/?size=100&id=fZ5Vka2rfii4&format=png&color=000000" alt="talk" class="w-15 h-15">
+                            </span>
+                            <div class="space-y-6 pt-5 text-base leading-7 text-[#FFF3CC] transition-all duration-300 group-hover:text-black">
+                                <h1 class="font-bold mb-2 mt-4">HABILIDES BLANDAS</h1>
+                                <p class="font-medium text-wrap">Comunicación efectiva y la capacidad de ser proactivo en entornos colaborativos.</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- Diseño UX / UI --> 
+                <div class="cursor-default group relative overflow-hidden bg-[#000000] px-6 pt-10 pb-8 shadow-xs shadow-[#fddd39] ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 mb-10">
+                    <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#e9c511] transition-all duration-300 group-hover:scale-[10]"></span>
+                        <div class="relative z-10 mx-auto max-w-md">
+                            <span class="grid h-20 w-20 place-items-center rounded-full bg-[#e9c511] transition-all duration-300 group-hover:bg-[#fff7cc9a] group-hover:shadow-xs group-hover:shadow-[#000000]">
+                                <img src="https://img.icons8.com/?size=100&id=2799&format=png&color=000000" alt="talk" class="w-13 h-13">
+                            </span>
+                            <div class="space-y-6 pt-5 text-base leading-7 text-[#FFF3CC] transition-all duration-300 group-hover:text-black">
+                                <h1 class="font-bold mb-2 mt-4">DISEÑO UX/UI</h1>
+                                <p class="font-medium">Enfocado en crear experiencias intuitivas y atractivas, optimizando la usabilidad y la estética en cada proyecto.</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- Metodologías agiles --> 
+                <div class="cursor-default group relative overflow-hidden bg-[#000000] px-6 pt-10 pb-8 shadow-xs shadow-[#fddd39] ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 mt-5">
+                    <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#e9c511] transition-all duration-300 group-hover:scale-[10]"></span>
+                        <div class="relative z-10 mx-auto max-w-md">
+                            <span class="grid h-20 w-20 place-items-center rounded-full bg-[#e9c511] transition-all duration-300 group-hover:bg-[#fff7cc9a] group-hover:shadow-xs group-hover:shadow-[#000000]">
+                                <img src="https://img.icons8.com/?size=100&id=6p3lpWgIuhhR&format=png&color=000000" alt="talk" class="w-15 h-15">
+                            </span>
+                            <div class="space-y-6 pt-5 text-base leading-7 text-[#FFF3CC] transition-all duration-300 group-hover:text-black">
+                                <h1 class="font-bold mb-2 mt-4">METODOLOGÍAS ÁGILES</h1>
+                                <p class="font-medium">Experiencia en la implementación de metodologías ágiles, como Scrum y Kanban, para gestionar proyectos de manera eficiente.</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- Seguridad informatica --> 
+                <div class="cursor-default group relative overflow-hidden bg-[#000000] px-6 pt-10 pb-8 shadow-xs shadow-[#fddd39] ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 mt-5">
+                    <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#e9c511] transition-all duration-300 group-hover:scale-[10]"></span>
+                        <div class="relative z-10 mx-auto max-w-md">
+                            <span class="grid h-20 w-20 place-items-center rounded-full bg-[#e9c511] transition-all duration-300 group-hover:bg-[#fff7cc9a] group-hover:shadow-xs group-hover:shadow-[#000000]">
+                                <img src="https://img.icons8.com/?size=100&id=112615&format=png&color=000000" alt="talk" class="w-13 h-13">
+                            </span>
+                            <div class="space-y-6 pt-5 text-base leading-7 text-[#FFF3CC] transition-all duration-300 group-hover:text-black">
+                                <h1 class="font-bold mb-2 mt-4">ANALISTA DE SISTEMAS</h1>
+                                <p class="font-medium">Análisis, diseño y optimización de sistemas para soluciones eficientes y alineadas con objetivos de negocio.</p>
+                            </div>
+                        </div>
+                </div>                
+                <span id="rds"></span>
+            </div>            
+            </section>    
+        </div>
+        <hr class="border-t-2 border-[#e9c511] mx-auto my-4 w-full">
+    </section>
+    <!-- Sección para finalizar -->
+     <section>
+        <div class="flex gap-1 max-w-5xl justify-center mx-auto mb-10">
+            <h1 class="text-center font-semibold text-3xl text-[#e9c511] mt-15">FEEDBACK Y REDES SOCIALES</h1>
+            <img src="https://img.icons8.com/?size=100&id=7LYuAdAS6fix&format=png&color=e9c511" alt="proyecto" class="w-10 h-10 mb-1  mt-15 ml-5">  
+        </div>
+        <p class="text-center font-medium text-lg text-wrap text-[#FFF3CC] mt-3">¡Gracias por llegar al final! Te dejo mis redes sociales y una caja de comentarios por si quieres 
+        dejarme algún mensaje.</p>
+        <!-- Grupo de botones -->
+        <div class="flex flex-wrap justify-center gap-4 mt-25 mb-10">  
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/21liev/" target="_blank">
+                <button
+                class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                <img src="https://img.icons8.com/?size=100&id=32309&format=png&color=000000" alt="Instagram" class="w-8 h-8">
+                </span>
+                <span
+                class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">Instagram</span>
+                <span class="relative text-base font-semibold invisible">Textolargo</span>
+            </button>
+            </a>        
+            <!-- X (Twitter) -->
+            <a href="https://x.com/TarantulitaLiev" target="_blank">
+                <button
+                class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                <img src="https://img.icons8.com/?size=100&id=01GWmP9aUoPj&format=png&color=000000" alt="X" class="w-8 h-8">
+                </span>
+                <span
+                class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">X</span>
+                <span class="relative text-base font-semibold invisible">Textolargo</span>
+            </button>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/lievano.moron" target="_blank">
+                <button
+                class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                <img src="https://img.icons8.com/?size=100&id=59780&format=png&color=000000" alt="Facebook" class="w-8 h-8">
+                </span>
+                <span
+                class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">Facebook</span>
+                <span class="relative text-base font-semibold invisible">Textolargo</span>
+            </button>
+            </a>
+        </div>        
+        <!-- Formulario -->
+        <form action="https://formspree.io/f/mdkezboj" method="POST" class="max-w-md mx-auto mt-20 p-6 bg-black border rounded-lg shadow-xs shadow-[#fddd39]">
+            <h2 class="text-2xl font-bold mb-6 text-[#FFF3CC]">¡DEJAME TU COMENTARIO!</h2>
+            <div class="mb-4">
+                <label class="block text-[#FFF3CC] font-medium mb-2" for="name">Nombre:</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-[#fff3cc9d] font-medium leading-tight focus:outline-none focus:shadow-outline focus:text-amber-50" name="name" type="text" placeholder="Escribe tu nombre acá" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-[#FFF3CC] font-medium mb-2" for="email">Email:</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-[#fff3cc9d] font-medium leading-tight focus:outline-none focus:shadow-outline focus:text-amber-50" name="email" type="email" placeholder="Tu mail acá" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-[#FFF3CC] font-medium mb-2" for="feedback">Feedback:</label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-[#fff3cc9d] font-medium leading-tight focus:outline-none focus:shadow-outline focus:text-amber-50" name="message" rows="5" placeholder="Feedback acá" required></textarea>
+            </div>
+            <button type="submit"
+                class="cursor-pointer relative inline-flex items-center justify-center px-3.5 py-2.5 overflow-hidden font-bold text-[#FFF3CC] transition duration-300 ease-out border-2 border-[#ffcf23] rounded-lg shadow-md group">
+                <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#ffcf23] group-hover:translate-x-0 ease">
+                    <img src="https://img.icons8.com/?size=100&id=gaBzN6YXx4ki&format=png&color=000000" alt="talk" class="w-8 h-8">
+                </span>
+                <span class="absolute flex items-center text-base font-semibold justify-center w-full h-full text-[#FFF3CC] transition-all duration-300 transform group-hover:translate-x-full ease">Enviar</span>
+                <span class="relative text-base font-semibold invisible">Textolargo</span>
+            </button>
+        </form>
+     </section>
+     <footer class="bg-gray-800/50 backdrop-blur-md text-white py-4 px-3 mt-16 rounded-t-2xl">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
+                <p class="text-xs md:text-sm animate-bounce font-medium">&copy; Evidentemente no tiene copy sjasj</p>
+            </div>
+            <div class="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
+                <ul class="list-reset flex justify-center flex-wrap text-xs md:text-sm gap-3">
+                    <li><a href="#" class="text-gray-400 hover:text-white transition-all duration-500 ease-in-out">Volver al inicio</a></li>
+                    <li class="mx-4"><a href="#pro" class="text-gray-400 hover:text-white transition-all duration-500 ease-in-out">Proyectos</a></li>
+                    <li><a href="#tec" class="text-gray-400 hover:text-white transition-all duration-500 ease-in-out">Tecnologías y conocimientos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</main>
+
+                                                                
